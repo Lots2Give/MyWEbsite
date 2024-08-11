@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Have a Lot 2 Give</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            padding: 50px 0;
+            background-color: #6a9fb5;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .category {
+            background-color: #e9e9e9;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        .category a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .category {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .category {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>I Have a Lot 2 Give</h1>
+        <p>Your go-to site for learning, sharing, and growing together.</p>
+    </header>
+    <div class="container">
+        <div class="categories">
+            <div class="category">
+                <a href="#technical-tips">Technical Tips & How-To's</a>
+            </div>
+            <div class="category">
+                <a href="#personal-development">Personal Development</a>
+            </div>
+            <div class="category">
+                <a href="#parenting-help">Parenting Help</a>
+            </div>
+            <div class="category">
+                <a href="#coping-suggestions">Coping Suggestions</a>
+            </div>
+            <div class="category">
+                <a href="#music">Music Samples & Playlists</a>
+            </div>
+            <div class="category">
+                <a href="#resources">Resources</a>
+            </div>
+            <div class="category">
+                <a href="#forum">Forum</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
